@@ -11,6 +11,8 @@ public class TaxAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TaxAppApplication.class, args);
+		System.out.println("Application Serving: http://127.0.0.1:8080/");
+
 	}
 
 }
