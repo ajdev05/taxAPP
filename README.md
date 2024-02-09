@@ -18,7 +18,7 @@ git clone https://github.com/ajdev05/taxAPP.git
 ```
 
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```
 cd taxAPP
