@@ -14,40 +14,31 @@ To run Contact Form, follow these steps:
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/ajdev05/contactForm.git
+git clone https://github.com/ajdev05/taxAPP.git
 ```
 
 
 3. Navigate to the project directory:
 
 ```
-cd contactForm
+cd taxAPP
+
 ```
 
 
 3. Create a virtual environment and activate it:
 
 ```
-pip install virtualenv
-virtualenv env
-source env/bin/activate
+mvn spring-boot:run
 ```
 
-
-4. Install the required dependencies (Go to app.py and emailActions.py to configure SMPT and other things ):
-
-```
-pip install -r requirements.txt
-```
 
 
 ## Usage
 
-1. After setting up the virtual environment and installing dependencies, run the following command to start the application:
+1. Access the Tax Calculator UI & API at http://localhost:8080/.
 
-```
-python3 app.py
-```
+
 
 
 ## License
